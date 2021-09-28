@@ -1,0 +1,46 @@
+= Connect to an existing DATABASE!!!
+
+Our project now is to create a database in mySQL
+
+Dependence:
+
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+click on the version ... the newest link now:
+
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.26
+
+click on the code, it copies itself automatically and insert into your
+code to the pom.xml in between two dependencies tag as follows:
+
+'''
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.26</version>
+        </dependency>
+
+    </dependencies>
+
+and do not forget to build the project!
+
+
+'''
+
+Hiding password and username:
+
+- run -> edit configuration -> Environment variables
+
+- we can do refactor that database names, and table names are not in variables! and there are some code repetition in Class DataBaseEngine!!!
+
+- make ENUM for TABLE and COLUMN!!!
+
+- make a QueriBuilder Class!
+
+'''
+
+Adding to resources the pics for Blob to MySQL ... handled by java project and IntelliJ.
+
+Also add to resources folder the java scripts!!!

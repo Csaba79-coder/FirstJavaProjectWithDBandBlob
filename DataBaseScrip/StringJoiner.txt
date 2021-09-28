@@ -1,0 +1,3 @@
+StringJoiner joiner = new StringJoiner(",");
+list.forEach(item -> joiner.add(item.toString());
+return joiner.toString();
